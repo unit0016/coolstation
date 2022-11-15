@@ -1,7 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aaa" = (
 /obj/critter/nicespider,
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 4
+	},
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/south)
 "aab" = (
@@ -279,7 +281,9 @@
 /turf/simulated/floor/shuttlebay,
 /area/station/hangar/engine)
 "aaI" = (
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 1
+	},
 /obj/cabinet/medical,
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -1108,7 +1112,9 @@
 	message = "Delivery alert in Morgue.";
 	name = "Morgue Outlet"
 	},
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 1
+	},
 /obj/item/device/radio/intercom/medical,
 /obj/disposalpipe/trunk/morgue{
 	dir = 8
@@ -1268,7 +1274,9 @@
 	dir = 1
 	},
 /obj/item/cloneModule/genepowermodule,
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 1
+	},
 /turf/simulated/floor/green,
 /area/station/medical/research{
 	name = "Genetic Research"
@@ -2611,7 +2619,9 @@
 /obj/cable{
 	icon_state = "0-2"
 	},
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 8
+	},
 /turf/simulated/floor/darkblue,
 /area/station/medical/medbay/psychiatrist)
 "afG" = (
@@ -2631,7 +2641,9 @@
 /area/station/engine/engineering)
 "afI" = (
 /obj/cabinet/taffy,
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 4
+	},
 /turf/simulated/floor/darkblue,
 /area/station/medical/medbay/psychiatrist)
 "afJ" = (
@@ -2955,7 +2967,9 @@
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/northeast)
 "agw" = (
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 1
+	},
 /obj/storage/closet/emergency,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/north)
@@ -3322,7 +3336,9 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/medical/crematorium)
 "ahw" = (
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 4
+	},
 /obj/machinery/conveyor{
 	id = "chapel"
 	},
@@ -3986,7 +4002,9 @@
 	name = "Medical Doctor"
 	},
 /obj/stool/chair/blue,
-/obj/machinery/light/fluorescent/warm,
+/obj/machinery/light/fluorescent/warm{
+	dir = 4
+	},
 /turf/simulated/floor/red/checker,
 /area/station/medical/medbay/surgery/storage)
 "ajc" = (
@@ -4047,7 +4065,9 @@
 	},
 /area/station/medical/medbay)
 "ajj" = (
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 8
+	},
 /obj/stool/chair{
 	dir = 1
 	},
@@ -4082,7 +4102,9 @@
 /turf/simulated/floor/sanitary,
 /area/station/crew_quarters/toilets)
 "ajo" = (
-/obj/machinery/light/fluorescent/cool/very,
+/obj/machinery/light/fluorescent/cool/very{
+	dir = 4
+	},
 /turf/simulated/floor/sanitary,
 /area/station/crew_quarters/toilets)
 "ajp" = (
@@ -4529,7 +4551,9 @@
 /turf/simulated/floor/bluegreen,
 /area/station/medical/medbay/treatment2)
 "aky" = (
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 1
+	},
 /turf/simulated/floor/bluegreen,
 /area/station/medical/medbay/treatment1)
 "akz" = (
@@ -4567,7 +4591,9 @@
 	pixel_y = 20;
 	tag = ""
 	},
-/obj/machinery/light/fluorescent/warm,
+/obj/machinery/light/fluorescent/warm{
+	dir = 8
+	},
 /turf/simulated/floor/grass{
 	name = "astroturf"
 	},
@@ -5259,7 +5285,9 @@
 	},
 /area/station/chapel/sanctuary)
 "ama" = (
-/obj/machinery/light/fluorescent/warm,
+/obj/machinery/light/fluorescent/warm{
+	dir = 4
+	},
 /turf/simulated/floor/specialroom/chapel{
 	dir = 8
 	},
@@ -5378,7 +5406,9 @@
 /obj/landmark/spawner{
 	name = "monkeyspawn_normal"
 	},
-/obj/machinery/light/fluorescent/warm,
+/obj/machinery/light/fluorescent/warm{
+	dir = 4
+	},
 /obj/disposalpipe/segment/produce,
 /turf/simulated/floor/grass{
 	name = "astroturf"
@@ -5446,7 +5476,9 @@
 /area/station/medical/medbay/surgery)
 "amw" = (
 /obj/machinery/genetics_scanner,
-/obj/machinery/light/fluorescent/cool,
+/obj/machinery/light/fluorescent/cool{
+	dir = 4
+	},
 /turf/simulated/floor/green,
 /area/station/medical/research{
 	name = "Genetic Research"
@@ -22843,7 +22875,9 @@
 /turf/simulated/floor,
 /area/station/hallway/primary/east)
 "bez" = (
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 1
+	},
 /obj/storage/closet/coffin/wood,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/northwest)
@@ -30043,7 +30077,7 @@
 "bwL" = (
 /obj/table/wood/round/auto,
 /obj/displaycase{
-	displayed = new /obj/item/captaingun;
+	displayed = new/obj/item/captaingun;
 	pixel_y = 8
 	},
 /obj/machinery/light/fluorescent/warm,
@@ -38866,7 +38900,9 @@
 /area/station/quartermaster/office)
 "bSk" = (
 /obj/tug_cart,
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 4
+	},
 /turf/simulated/floor/plating/random,
 /area/station/quartermaster/office)
 "bSl" = (
@@ -40926,7 +40962,9 @@
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/inner/central)
 "bXm" = (
-/obj/machinery/light/fluorescent/blueish,
+/obj/machinery/light/fluorescent/blueish{
+	dir = 1
+	},
 /obj/item/crowbar,
 /obj/item/weldingtool,
 /turf/simulated/floor/plating/random,
@@ -44780,7 +44818,9 @@
 /obj/stool/chair/green{
 	dir = 8
 	},
-/obj/machinery/light/fluorescent,
+/obj/machinery/light/fluorescent{
+	dir = 1
+	},
 /turf/simulated/floor/black,
 /area/station/hydroponics/bay)
 "cjh" = (
@@ -46219,6 +46259,12 @@
 	},
 /turf/space/fluid,
 /area/space)
+"fQi" = (
+/obj/machinery/light/fluorescent/blueish{
+	dir = 8
+	},
+/turf/simulated/floor/plating/random,
+/area/station/maintenance/northwest)
 "fQs" = (
 /obj/rack,
 /obj/item/tank/emergency_oxygen,
@@ -46599,7 +46645,7 @@
 	pixel_x = -4;
 	pixel_y = 30;
 	random_code = 1;
-	spawn_contents = list(/obj/item/ammo/bullets/rifle_3006, /obj/item/reagent_containers/food/snacks/pizza/mushroom, /obj/item/reagent_containers/food/snacks/pizza/pepperoni)
+	spawn_contents = list(/obj/item/ammo/bullets/rifle_3006,/obj/item/reagent_containers/food/snacks/pizza/mushroom,/obj/item/reagent_containers/food/snacks/pizza/pepperoni)
 	},
 /turf/simulated/martian/floor,
 /area/evilreaver/bridge)
@@ -47004,6 +47050,14 @@
 	icon_state = "fblue1"
 	},
 /area/station/medical/head)
+"lgY" = (
+/obj/machinery/light/fluorescent/warm{
+	dir = 4
+	},
+/turf/simulated/floor/specialroom/chapel{
+	dir = 4
+	},
+/area/station/chapel/sanctuary)
 "ljO" = (
 /obj/machinery/light/fluorescent/neutral,
 /turf/simulated/floor/green,
@@ -47601,6 +47655,12 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/west)
+"pLm" = (
+/obj/machinery/light/fluorescent/blueish{
+	dir = 1
+	},
+/turf/simulated/floor/plating/random,
+/area/station/maintenance/south)
 "pLy" = (
 /obj/landmark/gps_waypoint,
 /turf/simulated/floor/shuttlebay,
@@ -48288,6 +48348,12 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/south)
+"vcC" = (
+/obj/machinery/light/fluorescent/blueish{
+	dir = 4
+	},
+/turf/simulated/floor/plating/random,
+/area/station/maintenance/north)
 "vcK" = (
 /obj/item/furniture_parts/office_chair,
 /obj/item/furniture_parts/office_chair/green,
@@ -48566,6 +48632,15 @@
 	},
 /turf/simulated/floor/shuttlebay,
 /area/station/hangar/sec)
+"xvm" = (
+/obj/machinery/light/fluorescent/cool{
+	dir = 8
+	},
+/obj/disposalpipe/segment,
+/turf/simulated/floor/bluewhite/corner{
+	dir = 4
+	},
+/area/station/medical/medbay)
 "xxK" = (
 /turf/simulated/floor/bluewhite{
 	dir = 4
@@ -82301,7 +82376,7 @@ agY
 agY
 agY
 agY
-cfB
+fQi
 agY
 aiC
 akX
@@ -87442,7 +87517,7 @@ ahY
 ama
 amX
 anO
-aoB
+lgY
 anO
 aqP
 ama
@@ -88048,7 +88123,7 @@ afq
 afq
 afq
 afq
-agE
+vcC
 asb
 afq
 afq
@@ -89252,7 +89327,7 @@ afq
 afq
 axA
 aku
-agE
+vcC
 afq
 asc
 asc
@@ -95892,7 +95967,7 @@ ahp
 ahJ
 aip
 ajg
-ajM
+xvm
 akP
 alw
 ajM
@@ -102926,7 +103001,7 @@ bNM
 bOP
 bPO
 bMA
-bLs
+pLm
 bLr
 bLr
 bOR
